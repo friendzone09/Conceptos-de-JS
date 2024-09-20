@@ -30,3 +30,48 @@ sayHelloto('Yayo');
 const sayHelloTo1 = (name) => console.log(`Hello ${ name}`);
 sayHelloTo1('Momo');
 
+console.log('==========================================================================================');
+
+function fullName(name, lastName){
+    return console.log(`${name } ${lastName}`);
+
+};
+
+fullName("Alejandro", "Perez")
+
+console.log('==========================================================================================');
+
+const fullName2 = (name, lastName) => console.log(`${name } ${ lastName}`);
+fullName2('Gerardo', 'Ortiz')
+
+console.log('==========================================================================================');
+
+function duplicateNumber(number){
+    return number + 2;
+};
+
+console.log('==========================================================================================');
+
+let duplicate = duplicateNumber(5);
+console.log(duplicate);
+
+console.log('==========================================================================================');
+
+const halfNumber = number => number/2;
+let half = halfNumber(10);
+console.log(half);
+
+console.log('==========================================================================================');
+
+function greetings(name = 'Invitado'){
+    console.log(`Hola ${ name}`);
+};
+
+greetings('Gerardo');
+greetings();
+
+console.log('==========================================================================================');
+
+const greetings2 = (name = 'Invitado') => console.log(`Hi ${ name}`);
+greetings('Emperador');
+greetings();
