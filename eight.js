@@ -7,10 +7,10 @@ main.addEventListener('click', () =>{
     const options = [
         'Ey',
         'Simon',
-        'NOOOOOOO MI COMPA',
+        'NOOOOOOO MI COMPA ',
         'Preguntale al Santy',
         'A veces',
-        'Eh que pedo que es esto',
+        'Eh que onda que es esto',
         '✈️🏢🏢💥'
     ]
 
