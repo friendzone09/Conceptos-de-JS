@@ -74,3 +74,20 @@ body{
     background-color: rgb(227, 148, 1);
 }
 
+@media (max-width: 700px) {
+    .tarjetas{
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        margin-top:0 ;
+        margin: 0;
+    }
+    #game2{
+        height: 320px;
+    }
+
+    #btn2{
+        bottom: 0;
+    }
+    
+}
